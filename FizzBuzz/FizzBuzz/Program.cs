@@ -35,12 +35,12 @@ namespace FizzBuzz
 
         public static bool IsFizz(this int number)
         {
-            return number % 3 == 0 ? true : false;
+            return number % 3 == 0;
         }
 
         public static bool IsBuzz(this int number)
         {
-            return number % 5 == 0 ? true : false;
+            return number % 5 == 0;
         }
 
     }
